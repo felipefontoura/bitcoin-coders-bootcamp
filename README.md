@@ -497,6 +497,7 @@ Ou remapeie no `docker-compose.yml` (ex: `"28443:18443"`).
 
 ## 🔗 Referências
 
+- [Bitcoin Coders — Curso Bitcoin CLI](https://bitcoincoders.org/curso/bitcoin-cli/) — curso-base deste bootcamp
 - [Bitcoin Core — Documentação oficial](https://bitcoincore.org/en/doc/)
 - [RPC API reference (28.0)](https://developer.bitcoin.org/reference/rpc/)
 - [Learning Bitcoin from the Command Line](https://github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line)
