@@ -1,0 +1,16 @@
+services:
+  bitcoind:
+    image: bitcoin/bitcoin:28.0
+    container_name: bitcoind
+    restart: unless-stopped
+    ports:
+      - "18443:18443"
+      - "18444:18444"
+    volumes:
+      - ./bitcoind/bitcoin.conf:/home/bitcoin/.bitcoin/bitcoin.conf
+      - bitcoind-data:/home/bitcoin/.bitcoin
+    command:
+      - -printtoconsole
+
+volumes:
+  bitcoind-data:
